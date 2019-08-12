@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+wx:
+  open:
+    config:
+      # 填写自己的 appid
+      appid: xxxxxxxxxxxxxxxxxxxxxxx
+      # 填写自己的 secret
+      secret: xxxxxxxxxxxxxxxxxxxxxxxxx
+      redirectUrl: http://www.xxx.com/wxCallBack
+      csrfKey: WeChat_WxJava_Demo
